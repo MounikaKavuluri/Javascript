@@ -71,6 +71,7 @@ var Employee = function() {
     }
 
 }
+
 var getEmployees = function()
 {
     var Employ =[];
@@ -204,10 +205,8 @@ var getEmployees = function()
         var EmpId = document.createElement("label");
         EmpId.innerHTML = value;
 
-
         empDetailsnew.appendChild(Lab1);
         empDetailsnew.appendChild(EmpId);
-
         empDetailsnew.appendChild(document.createElement("br"));
 
     }
